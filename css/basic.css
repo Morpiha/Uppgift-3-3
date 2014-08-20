@@ -3,6 +3,12 @@ body
 {
     background-color:#fcfaf4;
 }
+#container
+{
+    width:650px;
+    margin:0 auto;
+}
+}
 #topbar
 {
     background-color:#51473d;
@@ -10,6 +16,10 @@ body
 #menu
 {
     background-color:#51473d;
+    margin-bottom:0;
+    bottom:0;
+    width:650px;
+    float:left;
 }
 #menu li
 {
@@ -18,5 +28,8 @@ body
 }
 #content
 {
+    float:left;
     background-color:#eae7d2;
+    margin-top:0px;
+    top:0px;
 }
