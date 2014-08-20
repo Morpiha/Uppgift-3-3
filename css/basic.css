@@ -11,6 +11,11 @@ body
 {
     background-color:#51473d;
 }
+#menu li
+{
+    list-style-type:none;
+    display:inline;
+}
 #content
 {
     background-color:#eae7d2;
