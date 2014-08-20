@@ -1,5 +1,17 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body
+{
+    background-color:#fcfaf4;
+}
 #topbar
 {
     background-color:#51473d;
+}
+#menu
+{
+    background-color:#51473d;
+}
+#content
+{
+    background-color:#eae7d2;
 }
