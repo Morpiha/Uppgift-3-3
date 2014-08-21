@@ -2,23 +2,37 @@
 body
 {
     background-color:#fcfaf4;
+    height:100%;
+    width:100%;
 }
 #container
 {
     width:650px;
+    display:block;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    height:auto;
     margin:0 auto;
-}
+    padding:0px;
+    background-color:#51473d;
+    border-right:solid;
+    border-left:solid;
+    border-top:solid;
+    border-color:#cecab9;
 }
 #topbar
 {
     background-color:#51473d;
+    z-index:0;
+    float:right;
 }
 #menu
 {
     background-color:#51473d;
     margin-bottom:0;
     bottom:0;
-    width:650px;
+    width:100%;
     float:left;
 }
 #menu li
@@ -26,10 +40,16 @@ body
     list-style-type:none;
     display:inline;
 }
+#menu a
+{
+    text-decoration:none;
+    text-transform:capitalize;
+}
 #content
 {
     float:left;
     background-color:#eae7d2;
     margin-top:0px;
     top:0px;
+    z-index:1;
 }
