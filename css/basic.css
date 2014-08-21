@@ -19,6 +19,7 @@ body
     border-right:solid;
     border-left:solid;
     border-top:solid;
+    border-bottom:solid;
     border-color:#cecab9;
 }
 #topbar
@@ -30,21 +31,28 @@ body
 #menu
 {
     top:0;
+    margin-top:0;
     background-color:#51473d;
-    margin-bottom:0;
-    bottom:0;
     width:100%;
-    height:300px;
+    height:240px;
     background:url(pics/coffey.jpg);
-    background-position:right;
-    background-size:100% 250px;
+    background-position:top;
+    background-size:100% 200px;
     background-repeat:no-repeat;
     float:left;
+    overflow:hidden;
+    position:relative;
 }
 #menu li
 {
     list-style-type:none;
-    display:inline;
+    display:inline-block;
+}
+#menu ul
+{
+    position:absolute;
+    bottom:0;
+    margin-bottom:10px;
 }
 #menu a
 {
@@ -58,4 +66,8 @@ body
     margin-top:0px;
     top:0px;
     z-index:1;
+}
+#subcontent ul li
+{
+    list-style-type:none;
 }
